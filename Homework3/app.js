@@ -148,7 +148,7 @@ function KoreanMeals() {
   });
   const KoreanMap = KoreanOnes.map((item, index) => {
     return `
-    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 mx-auto">
     <div class="card mx-auto d-block rounded mb-3"  style="width: 16rem; height: 26rem;">
     <img class="mb-1" width="254" height="200" src=${item.img} alt=${item.title}>
   <div class="card-body text-center">
@@ -169,7 +169,7 @@ function JapanMeals() {
   });
   const JapanMap = JapanOnes.map((item, index) => {
     return `
-    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 mx-auto">
     <div class="card mx-auto d-block rounded mb-3"  style="width: 16rem; height: 26rem;">
     <img class="mb-1" width="254" height="200" src=${item.img} alt=${item.title}>
   <div class="card-body text-center">
@@ -190,7 +190,7 @@ function ChinaMeals() {
   });
   const ChinaMap = ChinaOnes.map((item, index) => {
     return `
-    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 mx-auto">
     <div class="card mx-auto d-block rounded mb-3"  style="width: 16rem; height: 26rem;">
     <img class="mb-1" width="254" height="200" src=${item.img} alt=${item.title}>
   <div class="card-body text-center">
